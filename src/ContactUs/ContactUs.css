@@ -1,4 +1,4 @@
-/* General Contact Us Section Styles */
+
 .contact-us {
     padding: 80px 20px;
     background-color: #f4f4f4;
@@ -20,7 +20,7 @@
     text-align: center;
   }
   
-  /* Layout for form and contact details */
+  
   .contact-content {
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@
     background-color: #1d9bf0;
   }
   
-  /* Map Styling */
+  
   .map {
     flex: 0 0 45%;
   }
@@ -69,7 +69,7 @@
     border-radius: 8px;
   }
   
-  /* Social Icons */
+  
   .social-icons {
     display: flex;
     justify-content: center;
@@ -87,7 +87,7 @@
     color: #61dafb;
   }
   
-  /* Responsive Design */
+ 
   @media (max-width: 768px) {
     .contact-content {
       flex-direction: column;

@@ -10,7 +10,7 @@ const AboutUs = () => {
       </div>
       
       <div className="about-us-content">
-        {/* Left Column: Text About the Company */}
+       
         <div className="about-text">
           <h3>Our Mission</h3>
           <p>
@@ -26,7 +26,7 @@ const AboutUs = () => {
           </ul>
         </div>
         
-        {/* Right Column: Team Images */}
+        
         <div className="about-images">
           <img src="https://ik.imagekit.io/Myimage/Team1.jpg?updatedAt=1733227269318" alt="Team 1" className="team-image" />
           <img src="https://ik.imagekit.io/Myimage/Team2.jpg?updatedAt=1733227269325" alt="Team 2" className="team-image" />

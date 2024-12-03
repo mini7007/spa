@@ -1,19 +1,19 @@
-/* Footer Styling */
+
 .footer {
     background-color: #282c34;
     color: white;
     text-align: center;
     padding: 20px 0;
     position: fixed;
-    bottom: -100px; /* Start hidden below the screen */
+    bottom: -100px; 
     left: 0;
     width: 100%;
     font-size: 1rem;
-    transition: bottom 0.3s ease-in-out; /* Smooth transition */
+    transition: bottom 0.3s ease-in-out; 
   }
   
   .footer.visible {
-    bottom: 0; /* Make the footer visible at the bottom */
+    bottom: 0; 
   }
   
   .footer p {

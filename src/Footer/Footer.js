@@ -5,13 +5,13 @@ const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
-    // Get the current scroll position
+    
     const scrollPosition = window.scrollY;
     const documentHeight = document.documentElement.scrollHeight;
     const windowHeight = window.innerHeight;
 
-    // Check if the user has scrolled to the bottom
-    if (scrollPosition + windowHeight >= documentHeight - 10) { // Allow a small buffer for scroll position
+    
+    if (scrollPosition + windowHeight >= documentHeight - 10) { 
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -22,7 +22,7 @@ const Footer = () => {
     window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll); // Cleanup the event listener
+      window.removeEventListener('scroll', handleScroll); 
     };
   }, []);
 

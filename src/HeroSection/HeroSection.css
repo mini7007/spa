@@ -1,4 +1,4 @@
-/* Hero Section Styles */
+
 .hero-section {
     position: relative;
     width: 100%;
@@ -13,7 +13,7 @@
     width: 100%;
     height: 100%;
     z-index: 1;
-    filter: blur(8px); /* Apply blur effect to the background image */
+    filter: blur(8px); 
     transition: filter 1s ease-in-out;
   }
   
@@ -23,7 +23,7 @@
     object-fit: cover;
   }
   
-  /* Overlay Text Styles */
+  
   .overlay-text {
     position: absolute;
     top: 50%;
@@ -33,7 +33,7 @@
     z-index: 2;
     color: white;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    background: rgba(0, 0, 0, 0.5); 
     border-radius: 10px;
   }
   
@@ -65,8 +65,8 @@
     background-color: #4fa3e7;
   }
   
-  /* Optional: Additional effects on hover */
+ 
   .hero-section:hover .slider {
-    filter: blur(5px); /* Optionally reduce blur effect when hovering */
+    filter: blur(5px); 
   }
   
